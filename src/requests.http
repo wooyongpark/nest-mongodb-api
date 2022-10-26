@@ -1,0 +1,20 @@
+# https://github.com/Huachao/vscode-restclient
+
+### Post create asset
+POST http://localhost:4952/api/assets
+Content-Type: application/json
+
+{
+  "name": "Top #1",
+  "type": "Garment #1",
+  "cost": 400
+}
+
+### Get assets
+GET http://localhost:4952/api/assets
+
+### Get assets
+GET http://localhost:4952/api/assets/635916da5dfff5059fcd4876
+
+### Delete assets
+DELETE http://localhost:4952/api/assets/635916da5dfff5059fcd4876
